@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  compiler:
+    build: .
+    command: build.sh
+    volumes:
+      - .:/home/src
+
+volumes:
